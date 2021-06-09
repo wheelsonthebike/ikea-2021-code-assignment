@@ -17,9 +17,7 @@ The warehouse should have at least the following functionality;
 * Remove(Sell) a product and update the inventory accordingly
 
 
----
-
-Notes:
+## Notes
 
 * This problem is called 'Bill of Materials'. It's a bit hard to search for, so use 'Inventory Management System' keywords too.
   * https://en.wikipedia.org/wiki/Bill_of_materials
@@ -36,7 +34,7 @@ Notes:
 
 
 
-Other implementations:
+#### Other implementations
 
 * https://github.com/hilios/warehouse
 
