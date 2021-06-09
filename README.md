@@ -23,6 +23,9 @@ The warehouse should have at least the following functionality;
   * https://en.wikipedia.org/wiki/Bill_of_materials
   * https://github.com/inventree/InvenTree
 
+* Blog about the BOM structure: https://www.vertabelo.com/blog/identifying-the-bill-of-materials-bom-structure-in-databases/
+
+
 * Recursive SQL queries are a potential solution, see 
   * mysql '`WITH` (Common Table Expressions)' https://dev.mysql.com/doc/refman/8.0/en/with.html 
   * MariaDB https://mariadb.com/kb/en/with/
