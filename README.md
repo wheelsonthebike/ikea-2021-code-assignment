@@ -26,7 +26,7 @@ The warehouse should have at least the following functionality;
 * Blog about the BOM structure: https://www.vertabelo.com/blog/identifying-the-bill-of-materials-bom-structure-in-databases/
 * "Available stock" either means 
   * "potential stock", as in "given 4 legs, 1 table top, and 1 chair seat then expect `chair.stock = 1` *and* `table.stock = 1`
-  * "actual stock", as in "given 4 legs, 1 table top, and 1 chair seat then expect `chair.stock = 1` *and* `table.stock = 0`, or vice versa. (This seems much more vague to me, and not what the assignment is requesting, but this is what the technical interviewer wanted).
+  * "actual stock", as in "given 4 legs, 1 table top, and 1 chair seat then expect `chair.stock = 1` *and* `table.stock = 0`, **or** vice versa. (This seems much more vague to me, and not what the assignment is requesting, but this is what the technical interviewer wanted).
   
 * This is an open ended assignment with different interpretations, but the technical interviewer will judge the assignment based on their interpretation of the assignment.
 * Recursive SQL queries are a potential solution, see 
