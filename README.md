@@ -24,20 +24,21 @@ The warehouse should have at least the following functionality;
   * https://github.com/inventree/InvenTree
 
 * Blog about the BOM structure: https://www.vertabelo.com/blog/identifying-the-bill-of-materials-bom-structure-in-databases/
-
-
+* "Available stock" either means 
+  * "potential stock", as in "given 4 legs and an abundance of other materials" with these unassembled parts we could create 5 chairs and 5 tables"
+* This is an open ended assignment with different interpretations, but the technical interviewer will judge the assignment based on their interpretation of the assignment.
 * Recursive SQL queries are a potential solution, see 
   * mysql '`WITH` (Common Table Expressions)' https://dev.mysql.com/doc/refman/8.0/en/with.html 
   * MariaDB https://mariadb.com/kb/en/with/
 
-* Kafka Streams https://sleeplessinslc.blogspot.com/2018/02/inventory-microservice-example-with.html
-* "Available stock" either means 
-  * "potential stock", as in "given 4 legs and an abundance of other materials" with these unassembled parts we could create 5 chairs and 5 tables"
-* This is an open ended assignment with different interpretations, but the technical interviewer will judge the assignment based on their interpretation of the assignment.
-
+#### Similar implementations 
 
 
 #### Other implementations
 
-* https://github.com/hilios/warehouse
+* Kafka Streams 
+  * https://sleeplessinslc.blogspot.com/2018/02/inventory-microservice-example-with.html 
+  * https://github.com/sanjayvacharya/sleeplessinslc/tree/master/inventory-example
+
+* Another applicant's project https://github.com/hilios/warehouse
 
