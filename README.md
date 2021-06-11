@@ -39,7 +39,10 @@ The warehouse should have at least the following functionality;
   * mysql '`WITH` (Common Table Expressions)' https://dev.mysql.com/doc/refman/8.0/en/with.html 
   * MariaDB https://mariadb.com/kb/en/with/
 
-#### Similar implementations 
+### Gotchas
+
+* Products have no IDs, only a name (workaround: use the name)
+* An Article and Product could have the same name (workaround: use a composite key, combining a string (e.g. `article`, `product`) and the name/id)
 
 
 #### Other implementations
