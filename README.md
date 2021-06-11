@@ -41,8 +41,12 @@ The warehouse should have at least the following functionality;
 
 ### Gotchas
 
-* Products have no IDs, only a name (workaround: use the name)
-* An Article and Product could have the same name (workaround: use a composite key, combining a string (e.g. `article`, `product`) and the name/id)
+* Products have no IDs, only a name 
+  
+  Workaround: use the product name
+* If you use the input ID/name as an identifier for products/articles, and if storing them in the same table, the IDs could clash, for example with a product named 'table' and an article with ID 'table. 
+  
+  Workaround: combine the name/ID with a string denoting the type (`article` or `product`)
 
 
 #### Other implementations
